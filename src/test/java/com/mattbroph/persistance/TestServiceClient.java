@@ -14,5 +14,6 @@ public class TestServiceClient {
                 client.target("https://swapi.info/api/planets/1");
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
         assertEquals("???", response);
+        // Adding some comment
     }
 }
