@@ -128,7 +128,7 @@
       <version>${jersey-version}</version>
     </dependency>
 
-    <!-- Needed for week 9 creating our own api-->
+    <!-- Needed for week 9 creating our own api -->
     <dependency>
       <groupId>org.glassfish.jersey.containers</groupId>
       <artifactId>jersey-container-servlet</artifactId>
