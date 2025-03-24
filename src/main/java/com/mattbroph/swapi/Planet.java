@@ -1,4 +1,4 @@
-package com.swapi;
+package com.mattbroph.swapi;
 
 import java.util.List;
 // not working? changed to wild card

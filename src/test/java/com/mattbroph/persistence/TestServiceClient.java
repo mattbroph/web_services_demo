@@ -1,7 +1,7 @@
 package com.mattbroph.persistence;
 
 import com.fasterxml.jackson.databind.*;
-import com.swapi.Planet;
+import com.mattbroph.swapi.Planet;
 
 import org.junit.Test;
 import javax.ws.rs.client.*;

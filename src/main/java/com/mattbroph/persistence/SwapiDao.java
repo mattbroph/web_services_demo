@@ -8,7 +8,7 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 
 import com.fasterxml.jackson.databind.*;
-import com.swapi.Planet;
+import com.mattbroph.swapi.Planet;
 //import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.*;
 
