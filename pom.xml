@@ -21,7 +21,7 @@
     <junit-platform-runner-version>1.0.0</junit-platform-runner-version>
     <maven-compiler-plugin-version>3.8.1</maven-compiler-plugin-version>
     <maven-surefire-plugin-version>2.19</maven-surefire-plugin-version>
-    <!-- Needed for week 8 -->
+    <!-- Needed for week 8 & 9-->
     <jersey-version>2.29.1</jersey-version>
     <jackson-version>2.10.0</jackson-version>
   </properties>
@@ -127,6 +127,14 @@
       <artifactId>jersey-hk2</artifactId>
       <version>${jersey-version}</version>
     </dependency>
+
+    <!-- Needed for week 9 -->
+    <dependency>
+      <groupId>org.glassfish.jersey.containers</groupId>
+      <artifactId>jersey-container-servlet</artifactId>
+      <version>${jersey-version}</version>
+    </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
     <dependency>
